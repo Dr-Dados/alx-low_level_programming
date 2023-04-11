@@ -4,12 +4,14 @@
 #include "main.h"
 
 /**
- * create_array - creates array of chars,
- * and initializes it with spec chars
- * @size: the size of array
- * @c:initial value
- * Return : a pointer to ther array or NULL if it fails
+ * create_array - creates an array of chars,
+ * and initializes it with a specific char.
+ * @size: the size of the array
+ * @c: initial value
+ *
+ * Return: a pointer to the array, or NULL if it fails
  */
+
 char *create_array(unsigned int size, char c)
 {
 char *ptr;
