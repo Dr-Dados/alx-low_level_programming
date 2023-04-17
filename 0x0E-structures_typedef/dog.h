@@ -2,10 +2,10 @@
 #define DOG_H
 
 /**
- *struct dog contains dog's basic info
- *@name: first element
- *@age :second element
- *owner :third element
+ * struct dog - contains dog's basic info
+ *@name: First element
+ *@age :Second element
+ *@owner :Third element
  *Description : Define a new type struct dog with three elements
  */
 
@@ -18,8 +18,6 @@ char *owner;
 /**
   * dog_t - typedef for struct dog
   */
-
-
 typedef struct dog dog_t;
 
 #endif
