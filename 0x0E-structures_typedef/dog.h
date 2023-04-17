@@ -12,8 +12,14 @@
 struct dog
 {
 char *name;
-int age;
+double age;
 char *owner;
-}
+};
+/**
+  * dog_t - typedef for struct dog
+  */
+
+
+typedef struct dog dog_t;
 
 #endif
