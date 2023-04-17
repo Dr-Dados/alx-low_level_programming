@@ -11,7 +11,7 @@
 
 void init_dog(struct dog *dog, char *name, float age, char *owner)
 {
-if(dog == NULL)
+if (dog == NULL)
 dog = malloc(sizeof(struct dog));
 dog->name = name;
 dog->age = age;
