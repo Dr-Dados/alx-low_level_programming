@@ -2,12 +2,11 @@
 #include <stdio.h>
 
 /**
- *int_index - return the index of the searched int
- *@array : array of int numbers to search in
- *@size : size of the array
- *@cmp : the function to use
- *
- *Return : the index of the searched int
+ *int_index - return index of the searched int if comparaison true ,else -1
+ *@array: array of int numbers to search in
+ *@size: size of the array
+ *@cmp:pointer to the function to use
+ *Return: 0
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
