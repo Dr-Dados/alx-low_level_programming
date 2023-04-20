@@ -18,10 +18,10 @@ va_list args;
 unsigned int i;
 int sum;
 sum = 0;
-va_start (args,n);
-for (i = 0 ;i<n;i++)
+va_start(args, n);
+for (i = 0 ; i < n; i++)
 {
-sum += va_arg(args,int);
+sum += va_arg(args, int);
 }
 return (sum);
 }
