@@ -19,8 +19,8 @@ ssize_t b;
 fp = open(filename, O_RDONLY);
 if (fp == -1)
 return (0);
-buffer = malloc(sizeof(char)*letters);
-b = read(fp,buffer,letters);
+buffer = malloc(sizeof(char) * letters);
+b = read(fp, buffer, letters);
 a = write(STDOUT_FILENO, buffer, b);
 free(buffer);
 close(fp);
